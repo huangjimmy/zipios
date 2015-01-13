@@ -35,14 +35,20 @@ int main(int argc, const char * argv[]) {
     
     ConstEntries::iterator it ;
     for( it = entries.begin() ; it != entries.end() ; it++)
-        cout << *(*it) << endl ;
+        cout << *(*it) << " isDirectory:" << (*it)->isDirectory() << endl ;
     
     string filename("logs/application.log");
     ConstEntryPointer ent = zf.getEntry(filename, FileCollection::MATCH ) ;
-    auto_ptr< istream > is( zf.getInputStream( filename, FileCollection::MATCH) ) ;
+    if (ent == NULL) {
+        cout << filename << " not found."<<endl;
+    }
+    else{
+        auto_ptr< istream > is( zf.getInputStream( ent ) ) ;
+        
+        cout << "Contents of entry, " << ent->getName() << " :" << endl ;
+        cout << is->rdbuf() ;
+    }
     
-    cout << "Contents of entry, " << ent->getName() << " :" << endl ;
-    cout << is->rdbuf() ;
     
     return 0;
 }

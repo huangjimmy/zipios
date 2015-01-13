@@ -71,7 +71,13 @@ istream *ZipFile::getInputStream( const string &entry_name,
     ZipInputStream *zis( new ZipInputStream( _filename,
       static_cast< const ZipCDirEntry * >( ent.get() )->
       getLocalHeaderOffset() + _vs.startOffset() ) ) ;
-    zis->getNextEntry();
+    // Should comment the following line
+    // zis points to the file identified by _filename
+    // we should not getNextEntry() again
+    //
+    // if zis points to last file in zip file, zis->getNextEntry() will crash the app.
+    //
+    //zis->getNextEntry();
     return zis;
   }
 }

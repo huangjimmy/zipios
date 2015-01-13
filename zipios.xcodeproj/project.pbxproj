@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF440C061A650C2600CEE23D /* appendzip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF440BE81A650C2600CEE23D /* appendzip.cpp */; };
+		BF440C071A650C2600CEE23D /* basicentry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF440BEA1A650C2600CEE23D /* basicentry.cpp */; };
+		BF440C081A650C2600CEE23D /* collcoll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF440BEB1A650C2600CEE23D /* collcoll.cpp */; };
+		BF440C091A650C2600CEE23D /* deflateoutputstreambuf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF440BEC1A650C2600CEE23D /* deflateoutputstreambuf.cpp */; };
+		BF440C0A1A650C2600CEE23D /* dircoll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF440BED1A650C2600CEE23D /* dircoll.cpp */; };
+		BF440C0B1A650C2600CEE23D /* directory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF440BEE1A650C2600CEE23D /* directory.cpp */; };
+		BF440C0C1A650C2600CEE23D /* fcoll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF440BF01A650C2600CEE23D /* fcoll.cpp */; };
+		BF440C0D1A650C2600CEE23D /* fcollexceptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF440BF11A650C2600CEE23D /* fcollexceptions.cpp */; };
+		BF440C0E1A650C2600CEE23D /* fileentry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF440BF21A650C2600CEE23D /* fileentry.cpp */; };
+		BF440C0F1A650C2600CEE23D /* filepath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF440BF31A650C2600CEE23D /* filepath.cpp */; };
+		BF440C101A650C2600CEE23D /* filterinputstreambuf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF440BF41A650C2600CEE23D /* filterinputstreambuf.cpp */; };
+		BF440C111A650C2600CEE23D /* filteroutputstreambuf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF440BF51A650C2600CEE23D /* filteroutputstreambuf.cpp */; };
+		BF440C121A650C2600CEE23D /* gzipoutputstream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF440BF61A650C2600CEE23D /* gzipoutputstream.cpp */; };
+		BF440C131A650C2600CEE23D /* gzipoutputstreambuf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF440BF71A650C2600CEE23D /* gzipoutputstreambuf.cpp */; };
+		BF440C141A650C2600CEE23D /* inflateinputstreambuf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF440BF81A650C2600CEE23D /* inflateinputstreambuf.cpp */; };
+		BF440C151A650C2600CEE23D /* zipfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF440BFC1A650C2600CEE23D /* zipfile.cpp */; };
+		BF440C161A650C2600CEE23D /* ziphead.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF440BFD1A650C2600CEE23D /* ziphead.cpp */; };
+		BF440C171A650C2600CEE23D /* zipheadio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF440BFE1A650C2600CEE23D /* zipheadio.cpp */; };
+		BF440C181A650C2600CEE23D /* zipinputstream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF440BFF1A650C2600CEE23D /* zipinputstream.cpp */; };
+		BF440C191A650C2600CEE23D /* zipinputstreambuf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF440C001A650C2600CEE23D /* zipinputstreambuf.cpp */; };
+		BF440C1A1A650C2600CEE23D /* zipoutputstream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF440C041A650C2600CEE23D /* zipoutputstream.cpp */; };
+		BF440C1B1A650C2600CEE23D /* zipoutputstreambuf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF440C051A650C2600CEE23D /* zipoutputstreambuf.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BF96847C1A650AEC00223272 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BF440BE81A650C2600CEE23D /* appendzip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = appendzip.cpp; sourceTree = "<group>"; };
+		BF440BE91A650C2600CEE23D /* backbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = backbuffer.h; sourceTree = "<group>"; };
+		BF440BEA1A650C2600CEE23D /* basicentry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = basicentry.cpp; sourceTree = "<group>"; };
+		BF440BEB1A650C2600CEE23D /* collcoll.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = collcoll.cpp; sourceTree = "<group>"; };
+		BF440BEC1A650C2600CEE23D /* deflateoutputstreambuf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = deflateoutputstreambuf.cpp; sourceTree = "<group>"; };
+		BF440BED1A650C2600CEE23D /* dircoll.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dircoll.cpp; sourceTree = "<group>"; };
+		BF440BEE1A650C2600CEE23D /* directory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = directory.cpp; sourceTree = "<group>"; };
+		BF440BEF1A650C2600CEE23D /* directory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = directory.h; sourceTree = "<group>"; };
+		BF440BF01A650C2600CEE23D /* fcoll.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fcoll.cpp; sourceTree = "<group>"; };
+		BF440BF11A650C2600CEE23D /* fcollexceptions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fcollexceptions.cpp; sourceTree = "<group>"; };
+		BF440BF21A650C2600CEE23D /* fileentry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fileentry.cpp; sourceTree = "<group>"; };
+		BF440BF31A650C2600CEE23D /* filepath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = filepath.cpp; sourceTree = "<group>"; };
+		BF440BF41A650C2600CEE23D /* filterinputstreambuf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = filterinputstreambuf.cpp; sourceTree = "<group>"; };
+		BF440BF51A650C2600CEE23D /* filteroutputstreambuf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = filteroutputstreambuf.cpp; sourceTree = "<group>"; };
+		BF440BF61A650C2600CEE23D /* gzipoutputstream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gzipoutputstream.cpp; sourceTree = "<group>"; };
+		BF440BF71A650C2600CEE23D /* gzipoutputstreambuf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gzipoutputstreambuf.cpp; sourceTree = "<group>"; };
+		BF440BF81A650C2600CEE23D /* inflateinputstreambuf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = inflateinputstreambuf.cpp; sourceTree = "<group>"; };
+		BF440BF91A650C2600CEE23D /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		BF440BFA1A650C2600CEE23D /* Makefile.vc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.vc; sourceTree = "<group>"; };
+		BF440BFB1A650C2600CEE23D /* outputstringstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = outputstringstream.h; sourceTree = "<group>"; };
+		BF440BFC1A650C2600CEE23D /* zipfile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zipfile.cpp; sourceTree = "<group>"; };
+		BF440BFD1A650C2600CEE23D /* ziphead.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ziphead.cpp; sourceTree = "<group>"; };
+		BF440BFE1A650C2600CEE23D /* zipheadio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zipheadio.cpp; sourceTree = "<group>"; };
+		BF440BFF1A650C2600CEE23D /* zipinputstream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zipinputstream.cpp; sourceTree = "<group>"; };
+		BF440C001A650C2600CEE23D /* zipinputstreambuf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zipinputstreambuf.cpp; sourceTree = "<group>"; };
+		BF440C031A650C2600CEE23D /* zipios_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zipios_common.h; sourceTree = "<group>"; };
+		BF440C041A650C2600CEE23D /* zipoutputstream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zipoutputstream.cpp; sourceTree = "<group>"; };
+		BF440C051A650C2600CEE23D /* zipoutputstreambuf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zipoutputstreambuf.cpp; sourceTree = "<group>"; };
+		BF440C1E1A650CD700CEE23D /* basicentry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = basicentry.h; sourceTree = "<group>"; };
+		BF440C1F1A650CD700CEE23D /* collcoll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = collcoll.h; sourceTree = "<group>"; };
+		BF440C201A650CD700CEE23D /* deflateoutputstreambuf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deflateoutputstreambuf.h; sourceTree = "<group>"; };
+		BF440C211A650CD700CEE23D /* dircoll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dircoll.h; sourceTree = "<group>"; };
+		BF440C221A650CD700CEE23D /* fcoll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fcoll.h; sourceTree = "<group>"; };
+		BF440C231A650CD700CEE23D /* fcollexceptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fcollexceptions.h; sourceTree = "<group>"; };
+		BF440C241A650CD700CEE23D /* fileentry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileentry.h; sourceTree = "<group>"; };
+		BF440C251A650CD700CEE23D /* filepath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filepath.h; sourceTree = "<group>"; };
+		BF440C261A650CD700CEE23D /* filterinputstreambuf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filterinputstreambuf.h; sourceTree = "<group>"; };
+		BF440C271A650CD700CEE23D /* filteroutputstreambuf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filteroutputstreambuf.h; sourceTree = "<group>"; };
+		BF440C281A650CD700CEE23D /* gzipoutputstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gzipoutputstream.h; sourceTree = "<group>"; };
+		BF440C291A650CD700CEE23D /* gzipoutputstreambuf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gzipoutputstreambuf.h; sourceTree = "<group>"; };
+		BF440C2A1A650CD700CEE23D /* inflateinputstreambuf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inflateinputstreambuf.h; sourceTree = "<group>"; };
+		BF440C2C1A650CD700CEE23D /* meta-iostreams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "meta-iostreams.h"; sourceTree = "<group>"; };
+		BF440C2D1A650CD700CEE23D /* simplesmartptr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simplesmartptr.h; sourceTree = "<group>"; };
+		BF440C2E1A650CD700CEE23D /* virtualseeker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = virtualseeker.h; sourceTree = "<group>"; };
+		BF440C2F1A650CD700CEE23D /* zipfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zipfile.h; sourceTree = "<group>"; };
+		BF440C301A650CD700CEE23D /* ziphead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ziphead.h; sourceTree = "<group>"; };
+		BF440C311A650CD700CEE23D /* zipheadio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zipheadio.h; sourceTree = "<group>"; };
+		BF440C321A650CD700CEE23D /* zipinputstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zipinputstream.h; sourceTree = "<group>"; };
+		BF440C331A650CD700CEE23D /* zipinputstreambuf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zipinputstreambuf.h; sourceTree = "<group>"; };
+		BF440C361A650CD700CEE23D /* zipios_defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zipios_defs.h; sourceTree = "<group>"; };
+		BF440C371A650CD700CEE23D /* zipoutputstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zipoutputstream.h; sourceTree = "<group>"; };
+		BF440C381A650CD700CEE23D /* zipoutputstreambuf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zipoutputstreambuf.h; sourceTree = "<group>"; };
+		BF440C391A6510C600CEE23D /* zipios-config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "zipios-config.h"; sourceTree = "<group>"; };
+		BF96847E1A650AEC00223272 /* libzipios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libzipios.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF96848F1A650AED00223272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF96847B1A650AEC00223272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF440BE61A650C2600CEE23D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BF440BE81A650C2600CEE23D /* appendzip.cpp */,
+				BF440BE91A650C2600CEE23D /* backbuffer.h */,
+				BF440BEA1A650C2600CEE23D /* basicentry.cpp */,
+				BF440BEB1A650C2600CEE23D /* collcoll.cpp */,
+				BF440BEC1A650C2600CEE23D /* deflateoutputstreambuf.cpp */,
+				BF440BED1A650C2600CEE23D /* dircoll.cpp */,
+				BF440BEE1A650C2600CEE23D /* directory.cpp */,
+				BF440BEF1A650C2600CEE23D /* directory.h */,
+				BF440BF01A650C2600CEE23D /* fcoll.cpp */,
+				BF440BF11A650C2600CEE23D /* fcollexceptions.cpp */,
+				BF440BF21A650C2600CEE23D /* fileentry.cpp */,
+				BF440BF31A650C2600CEE23D /* filepath.cpp */,
+				BF440BF41A650C2600CEE23D /* filterinputstreambuf.cpp */,
+				BF440BF51A650C2600CEE23D /* filteroutputstreambuf.cpp */,
+				BF440BF61A650C2600CEE23D /* gzipoutputstream.cpp */,
+				BF440BF71A650C2600CEE23D /* gzipoutputstreambuf.cpp */,
+				BF440BF81A650C2600CEE23D /* inflateinputstreambuf.cpp */,
+				BF440BF91A650C2600CEE23D /* Makefile.am */,
+				BF440BFA1A650C2600CEE23D /* Makefile.vc */,
+				BF440BFB1A650C2600CEE23D /* outputstringstream.h */,
+				BF440BFC1A650C2600CEE23D /* zipfile.cpp */,
+				BF440BFD1A650C2600CEE23D /* ziphead.cpp */,
+				BF440BFE1A650C2600CEE23D /* zipheadio.cpp */,
+				BF440BFF1A650C2600CEE23D /* zipinputstream.cpp */,
+				BF440C001A650C2600CEE23D /* zipinputstreambuf.cpp */,
+				BF440C031A650C2600CEE23D /* zipios_common.h */,
+				BF440C041A650C2600CEE23D /* zipoutputstream.cpp */,
+				BF440C051A650C2600CEE23D /* zipoutputstreambuf.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		BF440C1C1A650CD700CEE23D /* zipios++ */ = {
+			isa = PBXGroup;
+			children = (
+				BF440C391A6510C600CEE23D /* zipios-config.h */,
+				BF440C1E1A650CD700CEE23D /* basicentry.h */,
+				BF440C1F1A650CD700CEE23D /* collcoll.h */,
+				BF440C201A650CD700CEE23D /* deflateoutputstreambuf.h */,
+				BF440C211A650CD700CEE23D /* dircoll.h */,
+				BF440C221A650CD700CEE23D /* fcoll.h */,
+				BF440C231A650CD700CEE23D /* fcollexceptions.h */,
+				BF440C241A650CD700CEE23D /* fileentry.h */,
+				BF440C251A650CD700CEE23D /* filepath.h */,
+				BF440C261A650CD700CEE23D /* filterinputstreambuf.h */,
+				BF440C271A650CD700CEE23D /* filteroutputstreambuf.h */,
+				BF440C281A650CD700CEE23D /* gzipoutputstream.h */,
+				BF440C291A650CD700CEE23D /* gzipoutputstreambuf.h */,
+				BF440C2A1A650CD700CEE23D /* inflateinputstreambuf.h */,
+				BF440C2C1A650CD700CEE23D /* meta-iostreams.h */,
+				BF440C2D1A650CD700CEE23D /* simplesmartptr.h */,
+				BF440C2E1A650CD700CEE23D /* virtualseeker.h */,
+				BF440C2F1A650CD700CEE23D /* zipfile.h */,
+				BF440C301A650CD700CEE23D /* ziphead.h */,
+				BF440C311A650CD700CEE23D /* zipheadio.h */,
+				BF440C321A650CD700CEE23D /* zipinputstream.h */,
+				BF440C331A650CD700CEE23D /* zipinputstreambuf.h */,
+				BF440C361A650CD700CEE23D /* zipios_defs.h */,
+				BF440C371A650CD700CEE23D /* zipoutputstream.h */,
+				BF440C381A650CD700CEE23D /* zipoutputstreambuf.h */,
+			);
+			path = "zipios++";
+			sourceTree = "<group>";
+		};
+		BF9684751A650AEC00223272 = {
+			isa = PBXGroup;
+			children = (
+				BF440C1C1A650CD700CEE23D /* zipios++ */,
+				BF440BE61A650C2600CEE23D /* src */,
+				BF96848D1A650AEC00223272 /* iosTests */,
+				BF96847F1A650AEC00223272 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF96847F1A650AEC00223272 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF96847E1A650AEC00223272 /* libzipios.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF96848D1A650AEC00223272 /* iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF96848E1A650AED00223272 /* Supporting Files */,
+			);
+			path = iosTests;
+			sourceTree = "<group>";
+		};
+		BF96848E1A650AED00223272 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF96848F1A650AED00223272 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF96847D1A650AEC00223272 /* zipios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF9684921A650AED00223272 /* Build configuration list for PBXNativeTarget "zipios" */;
+			buildPhases = (
+				BF96847A1A650AEC00223272 /* Sources */,
+				BF96847B1A650AEC00223272 /* Frameworks */,
+				BF96847C1A650AEC00223272 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zipios;
+			productName = ios;
+			productReference = BF96847E1A650AEC00223272 /* libzipios.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF9684761A650AEC00223272 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = org;
+				TargetAttributes = {
+					BF96847D1A650AEC00223272 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = BF9684791A650AEC00223272 /* Build configuration list for PBXProject "zipios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF9684751A650AEC00223272;
+			productRefGroup = BF96847F1A650AEC00223272 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF96847D1A650AEC00223272 /* zipios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF96847A1A650AEC00223272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF440C081A650C2600CEE23D /* collcoll.cpp in Sources */,
+				BF440C0A1A650C2600CEE23D /* dircoll.cpp in Sources */,
+				BF440C1A1A650C2600CEE23D /* zipoutputstream.cpp in Sources */,
+				BF440C161A650C2600CEE23D /* ziphead.cpp in Sources */,
+				BF440C061A650C2600CEE23D /* appendzip.cpp in Sources */,
+				BF440C0B1A650C2600CEE23D /* directory.cpp in Sources */,
+				BF440C1B1A650C2600CEE23D /* zipoutputstreambuf.cpp in Sources */,
+				BF440C091A650C2600CEE23D /* deflateoutputstreambuf.cpp in Sources */,
+				BF440C191A650C2600CEE23D /* zipinputstreambuf.cpp in Sources */,
+				BF440C0E1A650C2600CEE23D /* fileentry.cpp in Sources */,
+				BF440C181A650C2600CEE23D /* zipinputstream.cpp in Sources */,
+				BF440C141A650C2600CEE23D /* inflateinputstreambuf.cpp in Sources */,
+				BF440C131A650C2600CEE23D /* gzipoutputstreambuf.cpp in Sources */,
+				BF440C111A650C2600CEE23D /* filteroutputstreambuf.cpp in Sources */,
+				BF440C121A650C2600CEE23D /* gzipoutputstream.cpp in Sources */,
+				BF440C0F1A650C2600CEE23D /* filepath.cpp in Sources */,
+				BF440C0C1A650C2600CEE23D /* fcoll.cpp in Sources */,
+				BF440C171A650C2600CEE23D /* zipheadio.cpp in Sources */,
+				BF440C0D1A650C2600CEE23D /* fcollexceptions.cpp in Sources */,
+				BF440C071A650C2600CEE23D /* basicentry.cpp in Sources */,
+				BF440C101A650C2600CEE23D /* filterinputstreambuf.cpp in Sources */,
+				BF440C151A650C2600CEE23D /* zipfile.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BF9684901A650AED00223272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Debug;
+		};
+		BF9684911A650AED00223272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Release;
+		};
+		BF9684931A650AED00223272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BF9684941A650AED00223272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF9684791A650AEC00223272 /* Build configuration list for PBXProject "zipios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9684901A650AED00223272 /* Debug */,
+				BF9684911A650AED00223272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF9684921A650AED00223272 /* Build configuration list for PBXNativeTarget "zipios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9684931A650AED00223272 /* Debug */,
+				BF9684941A650AED00223272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF9684761A650AEC00223272 /* Project object */;
+}

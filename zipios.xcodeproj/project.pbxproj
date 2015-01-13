@@ -61,8 +61,6 @@
 		BF440BF61A650C2600CEE23D /* gzipoutputstream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gzipoutputstream.cpp; sourceTree = "<group>"; };
 		BF440BF71A650C2600CEE23D /* gzipoutputstreambuf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gzipoutputstreambuf.cpp; sourceTree = "<group>"; };
 		BF440BF81A650C2600CEE23D /* inflateinputstreambuf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = inflateinputstreambuf.cpp; sourceTree = "<group>"; };
-		BF440BF91A650C2600CEE23D /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		BF440BFA1A650C2600CEE23D /* Makefile.vc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.vc; sourceTree = "<group>"; };
 		BF440BFB1A650C2600CEE23D /* outputstringstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = outputstringstream.h; sourceTree = "<group>"; };
 		BF440BFC1A650C2600CEE23D /* zipfile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zipfile.cpp; sourceTree = "<group>"; };
 		BF440BFD1A650C2600CEE23D /* ziphead.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ziphead.cpp; sourceTree = "<group>"; };
@@ -132,8 +130,6 @@
 				BF440BF61A650C2600CEE23D /* gzipoutputstream.cpp */,
 				BF440BF71A650C2600CEE23D /* gzipoutputstreambuf.cpp */,
 				BF440BF81A650C2600CEE23D /* inflateinputstreambuf.cpp */,
-				BF440BF91A650C2600CEE23D /* Makefile.am */,
-				BF440BFA1A650C2600CEE23D /* Makefile.vc */,
 				BF440BFB1A650C2600CEE23D /* outputstringstream.h */,
 				BF440BFC1A650C2600CEE23D /* zipfile.cpp */,
 				BF440BFD1A650C2600CEE23D /* ziphead.cpp */,
